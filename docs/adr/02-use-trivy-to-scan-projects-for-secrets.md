@@ -23,7 +23,7 @@ exception should be narrow and document its justification.
 
 This scans the current filesystem; it does not establish that Git history is
 free of secrets. Container images have a separate scan decision in
-[ADR 02](02-use-trivy-to-scan-published-images-for-secrets.md).
+[ADR 03](03-use-trivy-to-scan-published-images-for-secrets.md).
 
 Command reference: [Trivy filesystem CLI](https://trivy.dev/docs/latest/guide/references/configuration/cli/trivy_filesystem/).
 

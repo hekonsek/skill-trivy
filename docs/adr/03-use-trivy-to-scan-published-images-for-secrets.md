@@ -23,7 +23,7 @@ fail the check. Resolve real findings, rebuild, and scan the replacement image
 before publication. Document narrowly scoped false-positive exceptions.
 
 This complements the project filesystem scan in
-[ADR 01](01-use-trivy-to-scan-projects-for-secrets.md).
+[ADR 02](02-use-trivy-to-scan-projects-for-secrets.md).
 
 Command reference: [Trivy image CLI](https://trivy.dev/docs/latest/guide/references/configuration/cli/trivy_image/).
 

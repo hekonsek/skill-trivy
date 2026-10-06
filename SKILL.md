@@ -5,9 +5,16 @@ description: Best practices for using Trivy to scan working project files and co
 
 # Trivy best practicies
 
+## Local Ubuntu Installation
+
+Read [ADR 01](docs/adr/01-prefer-the-trivy-apt-repository-on-local-ubuntu.md)
+when installing Trivy on local Ubuntu. Prefer the official Trivy APT repository;
+Homebrew (`brew install trivy`) is an acceptable alternative. Verify the
+installation with `trivy --version` before scanning.
+
 ## Project Files
 
-Read [ADR 01](docs/adr/01-use-trivy-to-scan-projects-for-secrets.md) when working
+Read [ADR 02](docs/adr/02-use-trivy-to-scan-projects-for-secrets.md) when working
 on a project. Scan from its root during development and before sharing changes:
 
 ```sh
@@ -16,7 +23,7 @@ trivy fs --scanners secret --exit-code 1 .
 
 ## Container Images
 
-Read [ADR 02](docs/adr/02-use-trivy-to-scan-published-images-for-secrets.md) when
+Read [ADR 03](docs/adr/03-use-trivy-to-scan-published-images-for-secrets.md) when
 preparing an image for publication. Scan the exact built artifact before pushing
 or releasing it, replacing the example reference:
 
