@@ -3,7 +3,7 @@ name: skill-trivy
 description: Best practices for using Trivy to scan working project files and container images. Apply during development and before publishing built images.
 ---
 
-# Trivy Secret Scanning
+# Trivy best practicies
 
 ## Project Files
 
