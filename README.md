@@ -1,0 +1,1 @@
+# skill-trivy: Agent skill and best practicies for working with Trivy
